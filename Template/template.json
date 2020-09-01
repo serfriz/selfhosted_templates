@@ -2515,6 +2515,23 @@
         "bind": "/portainer/Files/AppData/Config/PiHole/DNS"
       }
     ],
+    "env":[
+      {
+        "name": "ServerIP",
+        "label": "ServerIP",
+        "default": "0.0.0.0"
+      },
+      {
+        "name": "TZ",
+        "label": "TZ",
+        "default": "Europe/Vienna"
+      },
+      {
+        "name": "WEBPASSWORD",
+        "label": "WEBPASSWORD",
+        "default": "WEBPASSWORD"
+      }
+    ],
     "note": "When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53."
   },
   {

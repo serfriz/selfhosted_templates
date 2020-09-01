@@ -2493,6 +2493,23 @@
 				"Tools"
 			],
 			"description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
+			"env": [
+				{
+					"default": "0.0.0.0",
+					"label": "ServerIP",
+					"name": "ServerIP"
+				},
+				{
+					"default": "Europe/Vienna",
+					"label": "TZ",
+					"name": "TZ"
+				},
+				{
+					"default": "WEBPASSWORD",
+					"label": "WEBPASSWORD",
+					"name": "WEBPASSWORD"
+				}
+			],
 			"image": "pihole/pihole:latest",
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pihole.png",
 			"name": "pihole",
